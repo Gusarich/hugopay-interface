@@ -1,6 +1,5 @@
 * {
     text-align: center !important;
-    margin: auto !important;
 }
 
 body {
@@ -33,18 +32,29 @@ svg {
 }
 
 .menu {
-
+    position: absolute;
+    left: 50%;
+    top: var(--tg-viewport-stable-height) - 30;
+    transform: translate(-50%, 0);
 }
 
 .menu * {
     display: inline-block;
+    margin: 10px;
 }
 
 .balance {
     font-size: 48px;
     display: block;
+    margin-bottom: 30px;
 }
 
 .bottom-button {
     font-size: 30px;
+}
+
+.balance-button {
+    border-radius: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
