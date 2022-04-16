@@ -32,9 +32,11 @@ svg {
 }
 
 .menu {
+    display: table;
     position: absolute;
     left: 50%;
-    top: var(--tg-viewport-stable-height) - 30;
+    width: 100%;
+    top: var(--tg-viewport-stable-height) - 5;
     transform: translate(-50%, 0);
 }
 
@@ -50,11 +52,16 @@ svg {
 }
 
 .bottom-button {
-    font-size: 30px;
+    display: table-cell;
+    font-size: 35px;
 }
 
 .balance-button {
     border-radius: 32px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.menu-buttons {
+    display: table-row;
 }
