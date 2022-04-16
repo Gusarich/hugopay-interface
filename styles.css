@@ -3,6 +3,10 @@ body {
     color: var(--tg-theme-text-color);
 }
 
+* -title {
+    display: block;
+}
+
 .button {
     background-color: var(--tg-theme-button-color);
     color: var(--tg-theme-button-text-color);
@@ -23,8 +27,12 @@ hr {
     border: none;
 }
 
+b {
+    font-size: 48px;
+}
+
 .menu {
-    
+
 }
 
 .menu * {
