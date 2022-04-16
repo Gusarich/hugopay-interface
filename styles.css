@@ -1,3 +1,8 @@
+* {
+    text-align: center !important;
+    margin: auto !important;
+}
+
 body {
     background-color: var(--tg-theme-bg-color);
     color: var(--tg-theme-text-color);
@@ -19,13 +24,8 @@ body {
 hr {
     background-color: var(--tg-theme-hint-color);
     width: 100%;
-    height: 2px;
+    height: 1px;
     border: none;
-}
-
-b {
-    font-size: 48px;
-    display: block;
 }
 
 svg {
@@ -38,4 +38,13 @@ svg {
 
 .menu * {
     display: inline-block;
+}
+
+.balance {
+    font-size: 48px;
+    display: block;
+}
+
+.bottom-button {
+    font-size: 30px;
 }
